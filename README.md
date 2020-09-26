@@ -1,4 +1,4 @@
 # Rendszam-tabla-felismero
+GKLB_INTM038 Gépi látás (levelező tagozat)
 
-Gépi látás (GKLB_INTM038)
-(Levelező tagozat)
+Ez az oldal a beadandó projekt publikálására jött létre. 
