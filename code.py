@@ -6,10 +6,13 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
 tess.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
- 
+
+print("Add meg a kép elérési útját! pl: C:\Python\ 1.jpg") 
+input1 = input()
+
 kernel = np.ones((1,1),np.uint8)
 
-kep=cv2.imread(r"C:\Python\40.jpg") #---<-----------------------input
+kep=cv2.imread(r"input1") #---<-----------------------input
 
 cv2.imwrite(r"C:\Python\seged.jpg", kep)
 kepEredeti = mpimg.imread(r"C:\Python\seged.jpg") 
